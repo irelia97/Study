@@ -37,7 +37,7 @@ void numAdd(string& A, string& B, const string& N)
 			break;
 			
 	A = A.substr(zeroCnt, A.size() - zeroCnt);
-    if( A == "" )
+    	if( A == "" )
 		A = "0";
 }
 
