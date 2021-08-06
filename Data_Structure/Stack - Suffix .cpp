@@ -12,7 +12,7 @@ void infixToSuffix(string str, vector<string>& output)
     for(int i = 0; i < str.size(); ){
         char ch = str[i];
         if( isdigit(ch) ){
-            int j = i + 1;
+            int j = i + 1;  
             while( j<str.size() && isdigit(str[j]) )
                 ++j;
             output.emplace_back( str.substr(i, j-i) );

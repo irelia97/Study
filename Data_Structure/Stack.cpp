@@ -15,7 +15,7 @@ private:
 
         delete[] stk;
         stk = newStk;
-        _maxSize = newMaxSize;
+        _maxSize = newMaxSize;  
     }
 public:
     myStack(int ms = 4) : _size(0), _maxSize(ms){
